@@ -1,0 +1,10 @@
+{
+  "buildCommand": "pnpm --filter @workspace/leadkar run build",
+  "outputDirectory": "artifacts/leadkar/dist/public",
+  "installCommand": "pnpm install --frozen-lockfile",
+  "framework": null,
+  "env": {
+    "BASE_PATH": "/",
+    "NODE_ENV": "production"
+  }
+}

@@ -2,58 +2,41 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 import path from "path";
+import type { PluginOption } from "vite";
 
-const isReplit = process.env.REPL_ID !== undefined;
-const isProduction = process.env.NODE_ENV === "production";
+const isReplit =
+  process.env.REPL_ID !== undefined && process.env.NODE_ENV !== "production";
 
 const rawPort = process.env.PORT;
 const port = rawPort ? Number(rawPort) : 3000;
-
 const basePath = process.env.BASE_PATH ?? "/";
 
-if (isReplit && !isProduction) {
-  if (!process.env.PORT) {
-    throw new Error(
-      "PORT environment variable is required but was not provided.",
-    );
-  }
-  if (!process.env.BASE_PATH) {
-    throw new Error(
-      "BASE_PATH environment variable is required but was not provided.",
-    );
+async function getReplitPlugins(): Promise<PluginOption[]> {
+  if (!isReplit) return [];
+  try {
+    const [errorModal, cartographer, devBanner] = await Promise.all([
+      import("@replit/vite-plugin-runtime-error-modal"),
+      import("@replit/vite-plugin-cartographer"),
+      import("@replit/vite-plugin-dev-banner"),
+    ]);
+    return [
+      errorModal.default(),
+      cartographer.cartographer({ root: path.resolve(import.meta.dirname, "..") }),
+      devBanner.devBanner(),
+    ];
+  } catch {
+    return [];
   }
 }
 
+const replitPlugins = await getReplitPlugins();
+
 export default defineConfig({
   base: basePath,
-  plugins: [
-    react(),
-    tailwindcss(),
-    ...(isReplit && !isProduction
-      ? [
-          await import("@replit/vite-plugin-runtime-error-modal").then((m) =>
-            m.default(),
-          ),
-          await import("@replit/vite-plugin-cartographer").then((m) =>
-            m.cartographer({
-              root: path.resolve(import.meta.dirname, ".."),
-            }),
-          ),
-          await import("@replit/vite-plugin-dev-banner").then((m) =>
-            m.devBanner(),
-          ),
-        ]
-      : []),
-  ],
+  plugins: [react(), tailwindcss(), ...replitPlugins],
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "src"),
-      "@assets": path.resolve(
-        import.meta.dirname,
-        "..",
-        "..",
-        "attached_assets",
-      ),
     },
     dedupe: ["react", "react-dom"],
   },

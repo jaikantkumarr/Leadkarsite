@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Leadkar"
+version = "1.0.0"
+id = "artifacts/leadkar"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 24325
+
+[services.development]
+run = "pnpm --filter @workspace/leadkar run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/leadkar", "run", "build" ]
+publicDir = "artifacts/leadkar/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "24325"
+BASE_PATH = "/"

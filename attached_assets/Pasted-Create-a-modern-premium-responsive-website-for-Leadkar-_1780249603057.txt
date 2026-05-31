@@ -1,0 +1,222 @@
+Create a modern, premium, responsive website for Leadkar (leadkar.in).
+
+Company Information
+
+Brand Name: Leadkar
+
+Tagline: Drive More Leads. Grow Faster.
+
+Industry: Digital Marketing & Business Growth Services
+
+Target Customers:
+
+Local Businesses
+Startups
+E-commerce Stores
+Service Providers
+Real Estate Agents
+Educational Institutes
+Healthcare Businesses
+Website Design Requirements
+Premium SaaS Style Design
+Dark + Light Modern Theme
+Fast Loading
+Mobile Responsive
+SEO Optimized
+Professional Animations
+Smooth Scrolling
+Premium Icons
+WhatsApp Floating Button
+Contact Form
+Lead Generation Focused
+Pages Required
+1. Home Page
+
+Hero Section:
+Headline:
+"Get More Leads & Grow Your Business Faster"
+
+Subheadline:
+"We help businesses generate quality leads through Google Ads, Meta Ads, SEO, Website Development, and Business Automation."
+
+Buttons:
+
+Get Free Consultation
+Contact Us
+
+Statistics Section:
+
+100+ Clients Served
+500+ Campaigns Managed
+1M+ Leads Generated
+99% Customer Satisfaction
+2. Services Page
+Google Ads Management
+Search Ads
+Display Ads
+Shopping Ads
+YouTube Ads
+Lead Generation Campaigns
+Conversion Tracking
+Meta Ads Management
+Facebook Ads
+Instagram Ads
+Retargeting Campaigns
+Lead Generation
+Sales Campaigns
+SEO Services
+Local SEO
+Technical SEO
+On-Page SEO
+Off-Page SEO
+Keyword Research
+Competitor Analysis
+Website Development
+Business Website
+Landing Page
+E-commerce Website
+Portfolio Website
+Custom Website Development
+Google Business Profile
+Profile Setup
+Verification Support
+Optimization
+Local Ranking Improvement
+Review Management
+Lead Generation
+Landing Pages
+Funnel Building
+CRM Integration
+Lead Automation
+WhatsApp Marketing
+WhatsApp Business Setup
+Automation
+Bulk Messaging
+Customer Support Integration
+CRM Solutions
+Lead Management
+Customer Tracking
+Sales Pipeline
+Automated Follow-up
+3. About Us
+
+Leadkar is a digital marketing agency focused on helping businesses generate more leads and increase revenue through data-driven marketing strategies.
+
+Mission:
+To help businesses grow online through affordable and effective marketing solutions.
+
+Vision:
+To become India's trusted digital growth partner.
+
+4. Pricing Section
+
+Starter Plan
+
+Google Business Profile
+Basic SEO
+Monthly Report
+
+Growth Plan
+
+Google Ads
+Meta Ads
+Landing Page
+Lead Tracking
+
+Premium Plan
+
+Complete Digital Marketing
+SEO
+Google Ads
+Meta Ads
+CRM Setup
+Monthly Strategy Calls
+5. Why Choose Us
+Result Driven Strategy
+Affordable Pricing
+Dedicated Support
+Transparent Reporting
+ROI Focused Campaigns
+Latest Marketing Technology
+6. Testimonials
+
+Create 6 professional testimonial cards.
+
+7. FAQ Section
+
+20 common FAQs related to:
+
+Google Ads
+SEO
+Meta Ads
+Website Development
+Lead Generation
+8. Contact Page
+
+Fields:
+
+Name
+Mobile Number
+Email
+Business Name
+Service Interested In
+Message
+
+Contact Information:
+
+Email:
+leadkar.in@gmail.com
+
+Phone:
++91 7808740233
+
+WhatsApp Button
+
+Google Map section optional.
+
+9. Footer
+
+Links:
+
+Home
+Services
+About
+Contact
+Privacy Policy
+Terms & Conditions
+
+Social Icons:
+
+Facebook
+Instagram
+LinkedIn
+YouTube
+
+Copyright:
+© 2026 Leadkar. All Rights Reserved.
+
+Extra Features
+SEO Meta Tags
+Schema Markup
+Open Graph Tags
+Sitemap.xml
+robots.txt
+WhatsApp Floating Chat
+Call Now Button
+Sticky Header
+Blog Section
+Newsletter Signup
+Lead Capture Popup
+Fast Performance Optimization
+Technology
+
+Use:
+
+Next.js
+Tailwind CSS
+TypeScript
+Framer Motion
+Responsive Design
+Vercel Ready
+
+Generate complete production-ready code with professional folder structure and modern UI similar to top SaaS companies.

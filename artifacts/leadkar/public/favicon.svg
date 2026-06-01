@@ -1,9 +1,17 @@
-<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="180" height="180" rx="36" fill="#4F8CFF"/>
-  
-  <path d="M98 42L72 96H95L82 138L108 84H85L98 42Z"
-        fill="white"
-        stroke="white"
-        stroke-width="4"
-        stroke-linejoin="round"/>
+<svg width="180" height="180" viewBox="0 0 138 126" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="138" height="126" rx="38" fill="#3C83F6"/>
+
+  <path
+    d="M77 23
+       L35 66
+       C30 71 34 77 40 77
+       H67
+       L57 106
+       C55 113 63 117 68 111
+       L104 72
+       C109 67 105 55 97 55
+       H76
+       L87 31
+       C90 24 82 19 77 23Z"
+    fill="white"/>
 </svg>

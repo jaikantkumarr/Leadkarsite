@@ -3,7 +3,7 @@ import { motion, useInView } from "framer-motion";
 import { Link } from "wouter";
 import {
   FaGoogle, FaFacebook, FaChartLine, FaCode,
-  FaMapMarkerAlt, FaBullhorn, FaWhatsapp, FaCogs
+  FaMapMarkerAlt, FaBullhorn, FaWhatsapp, FaCogs, FaCogss
 } from "react-icons/fa";
 import { CheckCircle2, ArrowRight } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
@@ -127,6 +127,21 @@ const services = [
   },
   {
     icon: FaCogs,
+    title: "CRM Solutions",
+    description: "Stop losing leads in spreadsheets. We implement and configure CRM systems that give you full visibility into your pipeline, automate follow-ups, and help your team close more deals.",
+    subServices: [
+      "Lead Management — Capture and organize every lead automatically",
+      "Customer Tracking — Monitor every interaction and touchpoint",
+      "Sales Pipeline — Visual pipeline from lead to closed deal",
+      "Automated Follow-up — Timely automated messages to nurture leads",
+    ],
+    color: "from-cyan-500/20 to-cyan-600/5",
+    iconColor: "text-cyan-400",
+    iconBg: "bg-cyan-400/10",
+    badge: null,
+  },
+  {
+    icon: FaCogss,
     title: "CRM Solutions",
     description: "Stop losing leads in spreadsheets. We implement and configure CRM systems that give you full visibility into your pipeline, automate follow-ups, and help your team close more deals.",
     subServices: [

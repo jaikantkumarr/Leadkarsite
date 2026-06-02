@@ -55,10 +55,10 @@ const values = [
 
 const team = [
   {
-    name: "Arjun Leadkar",
+    name: "Jaikant Kumar",
     role: "Founder & CEO",
-    expertise: "Google Ads & Growth Strategy",
-    avatar: "AL",
+    expertise: "Google Ads, Meta Ads & Growth Strategy",
+    avatar: "JK",
     color: "bg-blue-400/10 text-blue-400",
   },
   {

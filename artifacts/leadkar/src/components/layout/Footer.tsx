@@ -25,8 +25,8 @@ const footerLinks = {
 };
 
 const socials = [
-  { icon: FaFacebook, href: "#", label: "Facebook" },
-  { icon: FaInstagram, href: "#", label: "Instagram" },
+  { icon: FaFacebook, href: "https://www.facebook.com/profile.php?id=61590412395126", label: "Facebook" },
+  { icon: FaInstagram, href: "https://www.instagram.com/leadkar.in/", label: "Instagram" },
   { icon: FaLinkedin, href: "#", label: "LinkedIn" },
   { icon: FaYoutube, href: "#", label: "YouTube" },
 ];

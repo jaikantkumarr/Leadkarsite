@@ -5,8 +5,8 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 
 const floatingBadges = [
-  { icon: TrendingUp, text: "1M+ Leads Generated", x: "left-4 top-1/3", delay: 0.6 },
-  { icon: Users, text: "100+ Clients Served", x: "right-4 top-1/4", delay: 0.8 },
+  { icon: TrendingUp, text: "45K+ Leads Generated", x: "left-4 top-1/3", delay: 0.6 },
+  { icon: Users, text: "25+ Clients Served", x: "right-4 top-1/4", delay: 0.8 },
   { icon: Target, text: "99% Satisfaction", x: "right-6 bottom-1/4", delay: 1.0 },
 ];
 
@@ -115,7 +115,7 @@ export default function Hero() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6 }}
         >
-          {["Google Partner", "Meta Business Partner", "ISO Certified", "Trusted by 100+ Businesses"].map((item) => (
+          {["Google Partner", "Meta Business Partner", "ISO Certified", "Trusted by 50+ Businesses"].map((item) => (
             <div key={item} className="flex items-center gap-1.5">
               <div className="w-1.5 h-1.5 rounded-full bg-primary" />
               <span>{item}</span>
